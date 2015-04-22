@@ -1,0 +1,35 @@
+import java.util.*;
+
+public class TembakgambarAngka{
+  public static void main (String masukan[]) {
+    Scanner  TembakgambarAngka = new Scanner(System.in );
+     System.out.print("pilihan anda (int) untuk Gambar= 1 angka= 0");
+     int bil= TembakgambarAngka.nextInt();
+     int bilRandom = (int) (Math.random()+0.5);
+     if (bil==1) {
+       {
+         System.out.println (" anda memilih Gambar");
+         if (bilRandom==1)
+        System.out.println("tebakan anda benar");
+    System.out.println (" yaitu Gambar");
+     }
+       System.out.println("maaf tebakan anda salah");
+       System.out.println("yang benar gambar");
+     }
+  }  
+        {
+         System.out.println (" anda memilih ANGKA");
+         if (bilRandom==1){
+         {
+        System.out.println("tebakan anda benar");
+    System.out.println (" yaitu ANGKA");
+     }
+     {
+       System.out.println("maaf tebakan anda salah");
+       System.out.println("yang benar angka");
+     }
+        }
+         {
+       
+        
+
